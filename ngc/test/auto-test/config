@@ -11,11 +11,11 @@ export http_port=8061
 export https_port=8060
 
 # Directory where curl with http2 is installed
-export curl_dir=/home/ahameed/workspace/curl-7.68.0/src/curl
+export curl_dir=/root/epcforedge/ngc/test/auto-test/curl-7.68.0/src/curl
 
 # NEF node id or hostname
-export nef_host=localhost
-
+#export nef_host=localhost
+export nef_host=10.113.0.123
 # Use https or http only
 export https=true
 

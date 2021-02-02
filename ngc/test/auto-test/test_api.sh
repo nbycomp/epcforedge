@@ -11,9 +11,9 @@
 # Default configuration
 http_port=8091
 https_port=8090
-curl_path=/home/ahameed/workspace/curl-7.68.0/src/curl
+curl_dir=/root/epcforedge/ngc/test/auto-test/curl-7.68.0/src/curl
 sub_url=3gpp-traffic-influence/v1/AF_01/subscriptions
-nef_host=localhost
+nef_host=10.113.0.123
 https=false
 cert_path=/etc/certs/root-ca-cert.pem
 

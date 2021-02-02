@@ -7,8 +7,9 @@
 
 
 # Sets the config  and includes the lib function
-source test_nef.sh
-
+pushd /root/epcforedge/ngc/test/auto-test
+source test_api.sh
+popd
 
 #exposed env variables
 
